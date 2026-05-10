@@ -28,7 +28,7 @@ const HomeSection = () => {
               <div className="relative group ">
                 <img src={BannerImage} alt="Banner Image"  className="rounded-lg  shadow-lg"/>
                 <button onClick={openModal} className="absolute inset-0 flex items-center justify-center rounded-lg group-hover:opacity-75 transition z-0"><FaRegCirclePlay className="text-white text-5xl hove:text-blue-600" />
-</button>
+                </button>
               </div>
             </div>  
 
