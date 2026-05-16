@@ -1,6 +1,8 @@
 import Blogs from "../blogs/Blogs"
 import CompanyLogos from "./CompanyLogos"
+import FAQs from "./FAQs"
 import HomeSection from "./HomeSection"
+import NewsLetter from "./NewsLetter"
 import Priceing from "./Priceing"
 import ServicesSection from "./ServicesSection"
 import TeamSection from "./TeamSection"
@@ -18,6 +20,8 @@ const Home = () => {
       <Blogs />
       <TeamSection />
       <Priceing />
+      <FAQs />
+      <NewsLetter />
     </>
   )
 }
